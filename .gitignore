@@ -1,3 +1,12 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.back/
+venv.back/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
