@@ -73,4 +73,5 @@ Upon receiving a mention in Slack, the bot extracts the command and parameters f
 ![BSF](Assets/Images/Spectrograms/Right_Mind_BSF.png)
 <br>
 <b>Sonic Visualizer</b>
+
 ![BSF_SV](Assets/Images/Sonic_Visualizer/Right_Mind_BSF_SV.gif)
