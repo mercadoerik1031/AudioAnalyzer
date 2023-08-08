@@ -50,4 +50,4 @@ The project is organized into three main Python files:<br>
 Upon receiving a mention in Slack, the bot extracts the command and parameters from the payload and directs the request to the corresponding command function. The Helper_Functions module generates graphs, applies filters, and processes audio data.
 <h2>Test</h2>
 <b>Low-Pass Filter</b>
-![LPF](/Assets/Images/Spectrograms/Right_Mind_LPF.png)
+
