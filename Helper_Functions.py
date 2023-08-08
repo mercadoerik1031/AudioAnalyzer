@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 from io import BytesIO
 from scipy import signal
 
+# Set the backend of matplotlib to 'Agg' to save the graphs to a buffer
 matplotlib.use('Agg')
 
 def convert_to_mono(audio_data):
