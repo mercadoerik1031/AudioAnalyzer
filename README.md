@@ -48,15 +48,29 @@ The project is organized into three main Python files:<br>
   <li><b>Main.py:</b> Sets up the bot using the Slack Bolt framework, handles events, and routes commands to the appropriate functions.</li>
 </ul><br>
 Upon receiving a mention in Slack, the bot extracts the command and parameters from the payload and directs the request to the corresponding command function. The Helper_Functions module generates graphs, applies filters, and processes audio data.
-<h2>Test</h2>
-<h1>Low-Pass Filter</h1>
+<h2>Comparing Results</h2>
+<h3>Low-Pass Filter</h3>
 <b>Slack Bot</b><br>
 
 ![LPF](Assets/Images/Spectrograms/Right_Mind_LPF.png)
-<b>Sonic Visualiser</b><br>
+<br>
+<b>Sonic Visualizer</b>
+<br>
 
 ![LPF_SV](Assets/Images/Sonic_Visualizer/Right_Mind_LPF_SV.gif)
-<h1>High-Pass Filter</h1>
+
+<h3>High-Pass Filter</h3>
+<b>Slack Bot</b><br>
+
 ![HPF](Assets/Images/Spectrograms/Right_Mind_HPF.png)
-<h1><b>Band-Stop Filter</b></h1>
+<br>
+<b>Sonic Visualizer</b>
+
+![HPF_SV](Assets/Images/Sonic_Visualizer/Right_Mind_HPF_SV.gif)
+<h3>Band-Stop Filter</h3>
+<b>Slack Bot</b><br>
+
 ![BSF](Assets/Images/Spectrograms/Right_Mind_BSF.png)
+<br>
+<b>Sonic Visualizer</b>
+![BSF_SV](Assets/Images/Sonic_Visualizer/Right_Mind_BSF_SV.gif)
