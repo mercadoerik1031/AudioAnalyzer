@@ -48,6 +48,14 @@ The project is organized into three main Python files:<br>
   <li><b>Main.py:</b> Sets up the bot using the Slack Bolt framework, handles events, and routes commands to the appropriate functions.</li>
 </ul><br>
 Upon receiving a mention in Slack, the bot extracts the command and parameters from the payload and directs the request to the corresponding command function. The Helper_Functions module generates graphs, applies filters, and processes audio data.
+<br>
+To activate the bot you must include the following in a message:
+<ul>
+  <li>Mention the Slack Bot (@AudioAnalyzer)</li>
+  <li>Enter a command (Please see above)</li>
+  <li>Include an Audio File</li>
+</ul>
+
 <h2>Comparing Results</h2>
 <h3>Low-Pass Filter</h3>
 <b>Slack Bot</b><br>
