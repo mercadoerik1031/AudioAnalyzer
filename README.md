@@ -46,9 +46,9 @@ The project is organized into three main Python files:<br>
   <li><b>Helper_Functions.py:</b> Contains functions for audio processing, such as converting stereo audio to mono, generating graphs, and applying DSP filters.</li>
   <li><b>Commands.py:</b> Implements the bot's commands and functionalities, including audio file download, processing, and sending results back to Slack.</li>
   <li><b>Main.py:</b> Sets up the bot using the Slack Bolt framework, handles events, and routes commands to the appropriate functions.</li>
-</ul><br>
+</ul>
 Upon receiving a mention in Slack, the bot extracts the command and parameters from the payload and directs the request to the corresponding command function. The Helper_Functions module generates graphs, applies filters, and processes audio data.
-<br>
+<br><br>
 To activate the bot you must include the following in a message:
 <ul>
   <li>Mention the Slack Bot (@AudioAnalyzer)</li>
