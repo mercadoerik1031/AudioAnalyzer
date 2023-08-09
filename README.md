@@ -55,6 +55,9 @@ To activate the bot you must include the following in a message:
   <li>Enter a command (Please see above)</li>
   <li>Include an Audio File</li>
 </ul>
+<br>
+
+![HOW_TO](Assets/Images/How_To.png)
 
 <h2>Comparing Results</h2>
 <h3>Low-Pass Filter</h3>
